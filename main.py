@@ -325,11 +325,8 @@ def plot_importation_of_girls_bar(GI_states):
 st.plotly_chart(plot_importation_of_girls_bar(GI_states))
 
 
-# add two columns to plot 2 pie chart side by side 
-
-
 #### study details categorical data over state wise 
-df = pd.read_csv('State wise Sexual Assault (Detailed) 1999 - 2013.csv')
+df = pd.read_csv('SWSA_99_13.csv')
 
 #remove the cities 
 df_state_wise = df[~df['STATE/UT'].isin(['Total States', 'A & N Islands',
