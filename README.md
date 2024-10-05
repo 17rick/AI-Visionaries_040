@@ -92,5 +92,6 @@ Suggestions for future research and deeper insights.
 
 Our project focuses on analyzing State/UT-wise Sexual Assault Data in India from 2001 to 2014. It aims to uncover patterns in crimes against women, focusing on sensitive regions and critical periods. By using data visualization techniques, the research offers insights into trends and provides recommendations for advocacy, policy decisions, and preventive measures.
 
+![image](https://github.com/user-attachments/assets/c1344281-0d2b-4a7d-b316-cb55031ed1ce)
 
 
