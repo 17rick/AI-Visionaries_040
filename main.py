@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objs as go
+import matplotlib.pyplot as plt
 
 
 # Page configuration
