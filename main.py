@@ -325,6 +325,12 @@ def plot_dowry_deaths_pie(Dowry_states):
 with chart1:
     st.markdown("<h4 style='font-size: 40px; text-align: center;'>States with their Dowry Deaths</h4>", unsafe_allow_html=True)
     st.plotly_chart(plot_dowry_deaths_pie(Dowry_states))
+    
+    with st.expander("Download Total Dowry Deaths cases Data"):
+        st.write(Dowry_states.style.background_gradient(cmap="Oranges"))
+        csv = Dowry_states.to_csv(index = False).encode('utf-8')
+        st.download_button("Download Total Dowry deaths cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
 
 
 
