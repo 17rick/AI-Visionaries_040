@@ -147,11 +147,11 @@ def plot_top_states_by_Sex_ass(xx):
 
 st.plotly_chart(plot_top_states_by_Sex_ass(xx))
 
-# with st.expander("Download Total Sexual_Assault Cases Data"):
-#     st.write(xx.style.background_gradient(cmap="Blues"))
-#     csv = xx.to_csv(index = False).encode('utf-8')
-#     st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
-#                     help = 'Click here to download the data as a CSV file') 
+with st.expander("Download Total Sexual_Assault Cases Data"):
+    st.write(xx.style.background_gradient(cmap="Blues"))
+    csv = xx.to_csv(index = False).encode('utf-8')
+    st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                    help = 'Click here to download the data as a CSV file') 
 
 # 2.......
 # st.title("TotalRape cases in India by states")
