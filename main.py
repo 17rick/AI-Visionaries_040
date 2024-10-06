@@ -370,6 +370,13 @@ def plot_importation_of_girls_bar(GI_states):
 st.plotly_chart(plot_importation_of_girls_bar(GI_states))
 
 
+with st.expander("Download top 20_states data : Importation of Girls"):
+    st.write(GI_states.style.background_gradient(cmap="Blues"))
+    csv = GI_states.to_csv(index = False).encode('utf-8')
+    st.download_button("Download GI_states Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                    help = 'Click here to download the data as a CSV file') 
+
+
 #### study details categorical data over state wise 
 df = pd.read_csv('SWSA_99_13.csv')
 
@@ -423,6 +430,12 @@ def create_custom_pie_chart(data):
 with chart2:
     st.markdown("<h4 style='font-size: 40px; text-align: center;'>Total Number of Cases Over Time</h4>", unsafe_allow_html=True)
     st.plotly_chart(create_custom_pie_chart(total_cases_data))
+    
+    with st.expander("Download Total data by time wise"):
+        st.write(total_cases_data.style.background_gradient(cmap="Blues"))
+        csv = total_cases_data.to_csv(index = False).encode('utf-8')
+        st.download_button("Download total_cases_data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
 
 ## plot 3 of new df
 st.markdown("<h4 style='font-size: 40px; text-align: center;'>Victims in between every category </h4>", unsafe_allow_html=True)
