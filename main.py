@@ -147,11 +147,11 @@ def plot_top_states_by_Sex_ass(xx):
 
 st.plotly_chart(plot_top_states_by_Sex_ass(xx))
 
-with st.expander("Download Total Sexual_Assault Cases Data"):
-    st.write(xx.style.background_gradient(cmap="Blues"))
-    csv = xx.to_csv(index = False).encode('utf-8')
-    st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
-                    help = 'Click here to download the data as a CSV file') 
+# with st.expander("Download Total Sexual_Assault Cases Data"):
+#     st.write(xx.style.background_gradient(cmap="Blues"))
+#     csv = xx.to_csv(index = False).encode('utf-8')
+#     st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+#                     help = 'Click here to download the data as a CSV file') 
 
 # 2.......
 # st.title("TotalRape cases in India by states")
@@ -189,11 +189,11 @@ def plot_rapes(rape):
 
 st.plotly_chart(plot_rapes(rape))
 
-with st.expander("Download Total Rape cases Data"):
-    st.write(rape.style.background_gradient(cmap="Reds"))
-    csv = rape.to_csv(index = False).encode('utf-8')
-    st.download_button("Download Total Rape cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
-                    help = 'Click here to download the data as a CSV file') 
+# with st.expander("Download Total Rape cases Data"):
+#     st.write(rape.style.background_gradient(cmap="Reds"))
+#     csv = rape.to_csv(index = False).encode('utf-8')
+#     st.download_button("Download Total Rape cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
+#                     help = 'Click here to download the data as a CSV file') 
 
 # 3.......
 # title
@@ -270,13 +270,13 @@ def plot_o_h_k_i(outraging, husband, kidnap,insult):
 
 st.plotly_chart(plot_o_h_k_i(outraging, husband, kidnap,insult))
 
-c1,c2,c3,c4 =st.columns(4)
-with c1:
-    with st.expander("Download Total Sexual_Assault Cases Data"):
-        st.write(xx.style.background_gradient(cmap="Blues"))
-        csv = xx.to_csv(index = False).encode('utf-8')
-        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
-                        help = 'Click here to download the data as a CSV file') 
+# c1,c2,c3,c4 =st.columns(4)
+# with c1:
+#     with st.expander("Download Total Sexual_Assault Cases Data"):
+#         st.write(xx.style.background_gradient(cmap="Blues"))
+#         csv = xx.to_csv(index = False).encode('utf-8')
+#         st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+#                         help = 'Click here to download the data as a CSV file') 
 
 
 
