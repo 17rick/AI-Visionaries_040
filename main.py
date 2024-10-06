@@ -190,11 +190,11 @@ def plot_rapes(rape):
 
 st.plotly_chart(plot_rapes(rape))
 
-# with st.expander("Download Total Rape cases Data"):
-#     st.write(rape.style.background_gradient(cmap="Reds"))
-#     csv = rape.to_csv(index = False).encode('utf-8')
-#     st.download_button("Download Total Rape cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
-#                     help = 'Click here to download the data as a CSV file') 
+with st.expander("Download Total Rape cases Data"):
+    st.write(rape.style.background_gradient(cmap="Reds"))
+    csv = rape.to_csv(index = False).encode('utf-8')
+    st.download_button("Download Total Rape cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                    help = 'Click here to download the data as a CSV file') 
 
 # 3.......
 # title
@@ -271,14 +271,34 @@ def plot_o_h_k_i(outraging, husband, kidnap,insult):
 
 st.plotly_chart(plot_o_h_k_i(outraging, husband, kidnap,insult))
 
-# c1,c2,c3,c4 =st.columns(4)
-# with c1:
-#     with st.expander("Download Total Sexual_Assault Cases Data"):
-#         st.write(xx.style.background_gradient(cmap="Blues"))
-#         csv = xx.to_csv(index = False).encode('utf-8')
-#         st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
-#                         help = 'Click here to download the data as a CSV file') 
+c1,c2,c3,c4 =st.columns(4)
+with c1:
+    with st.expander("Download Total Kidnapping and Abduction Cases Data"):
+        st.write(kidnap.style.background_gradient(cmap="Blues"))
+        csv = kidnap.to_csv(index = False).encode('utf-8')
+        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
 
+with c2:
+    with st.expander("Download Total insult Cases Data"):
+        st.write(insult.style.background_gradient(cmap="Blues"))
+        csv = insult.to_csv(index = False).encode('utf-8')
+        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
+
+with c3:
+    with st.expander("Download Total outraging_Assault Cases Data"):
+        st.write(outraging.style.background_gradient(cmap="Blues"))
+        csv = outraging.to_csv(index = False).encode('utf-8')
+        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
+
+with c4:
+    with st.expander("Download Total husband and relative _Assault Cases Data"):
+        st.write(husband.style.background_gradient(cmap="Blues"))
+        csv = husband.to_csv(index = False).encode('utf-8')
+        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+                        help = 'Click here to download the data as a CSV file') 
 
 
 chart1, chart2 = st.columns((2))
