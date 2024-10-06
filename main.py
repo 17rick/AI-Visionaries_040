@@ -276,28 +276,28 @@ with c1:
     with st.expander("Download Total Kidnapping and Abduction Cases Data"):
         st.write(kidnap.style.background_gradient(cmap="Blues"))
         csv = kidnap.to_csv(index = False).encode('utf-8')
-        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+        st.download_button("Download kidnapping Data", data = csv, file_name = "state.csv", mime = "text/csv",
                         help = 'Click here to download the data as a CSV file') 
 
 with c2:
     with st.expander("Download Total insult Cases Data"):
         st.write(insult.style.background_gradient(cmap="Blues"))
         csv = insult.to_csv(index = False).encode('utf-8')
-        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+        st.download_button("Download insult cases Data", data = csv, file_name = "state.csv", mime = "text/csv",
                         help = 'Click here to download the data as a CSV file') 
 
 with c3:
     with st.expander("Download Total outraging_Assault Cases Data"):
         st.write(outraging.style.background_gradient(cmap="Blues"))
         csv = outraging.to_csv(index = False).encode('utf-8')
-        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+        st.download_button("Download outraging Data", data = csv, file_name = "state.csv", mime = "text/csv",
                         help = 'Click here to download the data as a CSV file') 
 
 with c4:
     with st.expander("Download Total husband and relative _Assault Cases Data"):
         st.write(husband.style.background_gradient(cmap="Blues"))
         csv = husband.to_csv(index = False).encode('utf-8')
-        st.download_button("Download Data", data = csv, file_name = "state.csv", mime = "text/csv",
+        st.download_button("Download husband Data", data = csv, file_name = "state.csv", mime = "text/csv",
                         help = 'Click here to download the data as a CSV file') 
 
 
