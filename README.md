@@ -4,7 +4,7 @@
 
 # 🍁 This is Our project : 🚀 Click the link to view our project 
 
-https://ai-visionaries040-rick.streamlit.app/
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-visionaries040-rick.streamlit.app/)
 
 
 
