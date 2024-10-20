@@ -9,12 +9,6 @@
 ![image](https://github.com/user-attachments/assets/80049e94-1bd6-4a6c-9d56-54b66c7e9c2d)
 ![image](https://github.com/user-attachments/assets/de733eff-581c-400b-a2ae-798f4b5f9b7d)
 
-## 🖇️ Youtube link : Project Presentation Video 🍁
-https://youtu.be/kdXlWBKR0Q8?si=ZXiMqnSaOGMecCne
-
-## 🖇️ Youtube link : Project QNA Video ✅
-https://youtu.be/3RixDNENnXo?si=rC96B7rF3IiJOrQp
-
 
 🗝️
 # Key Points:
