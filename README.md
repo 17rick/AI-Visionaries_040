@@ -1,6 +1,6 @@
 # AI-Visionaries_040 🍁
 
-# 🍁 This is Our project : 🚀 Click the link to view our project 
+# 🍁 This is Our project : 🚀 Click on 💡*open in streamlit* 🔥 to view our project 
 
 # 🎆🔥 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-visionaries040-rick.streamlit.app/)  🥀
 
