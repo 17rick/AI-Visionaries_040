@@ -9,8 +9,7 @@
 ![image](https://github.com/user-attachments/assets/de733eff-581c-400b-a2ae-798f4b5f9b7d)
 
 
-🗝️
-# Key Points:
+# 🗝️ Key Points:
 🚀Purpose:
 Analyze sexual assault cases in India between 2001 and 2014.
 Highlight the most affected regions and key timeframes to support preventive efforts.
