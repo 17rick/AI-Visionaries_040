@@ -4,7 +4,6 @@
 
 # ➡️ [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-visionaries040-rick.streamlit.app/)   🥀
 
-
 # our project will look like this : 
 ![image](https://github.com/user-attachments/assets/80049e94-1bd6-4a6c-9d56-54b66c7e9c2d)
 ![image](https://github.com/user-attachments/assets/de733eff-581c-400b-a2ae-798f4b5f9b7d)
